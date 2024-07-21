@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border:border-box;
+}
+.navBAr-top{
+    border: 2px solid black;
+    background-color: black;
+    
+}
+.shop-name{
+    text-align: center;
+    color: red;
+    padding-right: 30rem;
+}
+ul{
+    list-style: none;
+    padding: 0.5rem;
+    text-align: right;
+    margin: 0;
+}
+li{
+    display: inline-block;
+    padding: 0px 10px;
+    line-height: 14px;
+}
+ul li a{
+    font: 1.2em sans-serif;
+    color: white;
+    text-decoration: none;
+}
+ul a:hover,li a:focus{
+    color: red;
+
+}
+span{color: aliceblue;
+    text-align:  left;
+    margin-left: 0px;
+}
+.discount{
+    color: aliceblue;
+    border: 1em;
+}
+
+
+.footer-copyright {
+    color: #ffffff;
+    background: #2c2c2c;
+    padding: 20px 0px;
+    position: relative;
+}
+.footer-company a{
+    color: white;
+text-decoration: none;
+}
+.footer-company a:hover{
+    color: red;
+    transition: 1s;
+}

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+* {
+    margin: auto;
+    padding: 0;
+}
+
+/*======PAYMENT_WRAPPER=====*/
+
+.payment_wrapper {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+/*======CONTAINER=====*/
+
+.payment_wrapper .container {
+   max-width: 2000px;
+   margin: auto;
+}
+
+/*======MAIN=====*/
+
+.payment_wrapper .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background-image: url("back.jpg");
+}
+
+/*======FORM=====*/
+
+.payment_wrapper form {
+    padding: 20px;
+    width: 700px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    border-radius: 5px;
+}
+
+/*======ROW=====*/
+
+.payment_wrapper .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+/*======COLUMN=====*/
+
+.payment_wrapper .column {
+    flex: 1 1 250px;
+}
+
+/*======TITLE=====*/
+
+.payment_wrapper .title {
+    font-size: 22px;
+    color: #333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+/*======INPUT=====*/
+
+.payment_wrapper .inputBox {
+    margin: 15px 0;
+}
+
+.payment_wrapper .inputBox span {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.payment_wrapper .inputBox input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+
+.payment_wrapper .inputBox input:focus {
+    border: 1px solid #000;
+}
+
+.payment_wrapper .flex {
+    display: flex;
+    gap: 15px;
+}
+
+.payment_wrapper .flex .inputBox {
+    margin-top: 5px;
+}
+
+.payment_wrapper .inputBox img {
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+}
+
+/*======BUTTON=====*/
+
+.payment_wrapper .submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    margin-top: 5px;
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.payment_wrapper .submit-btn:hover {
+    background: red;
+    color: white;
+}

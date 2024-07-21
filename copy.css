@@ -1,0 +1,19 @@
+/*
+   ====== copyright ====== 
+    */
+
+    .footer-copyright {
+        
+        color: #ffffff;
+        background: #2c2c2c;
+        padding: 20px 0px;
+        position: relative;
+    }
+    .footer-company a{
+        color: white;
+    text-decoration: none;
+    }
+    .footer-company a:hover{
+        color: red;
+        transition: 1s;
+    }

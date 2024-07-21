@@ -1,0 +1,95 @@
+.delete-button{
+    margin-left: 45%;
+    margin-bottom:20px ;
+    padding: 20px;
+   height: 60px;
+   width: 200px;
+   border: 2px solid white;
+   border-radius: 20px;
+   cursor: pointer;
+}
+
+.delete-button:hover{
+    border-color: red;
+    transition: 1s;
+}
+.cart-total{
+margin-left: 20px;
+margin-right: 20px;
+height: 30vh;
+margin-bottom: 50px;
+padding-top: 60px;
+background-image: linear-gradient(#fff, #000);
+border: 2px solid;
+border-radius: 30px;
+text-align: center;
+}
+
+button#home {
+    border: none;
+    color: #465b52;
+    font-size: 15px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+button#continue {
+    border: none;
+    background: red;
+    width: 10%;
+    height: 35px;
+    border-radius: 7px;
+    color: #fff;
+}
+
+button#continue:hover{
+    background:rgb(145, 12, 12);
+    color: #fff;
+    cursor: pointer;
+}
+
+.cart-total a{
+    color: black;
+    margin-left: 40px;
+
+}
+#view:hover{
+    background: rgb(145, 6, 6);
+    cursor: pointer;
+    color: #fff;
+    transition: 1s;
+}
+
+input[type="number"] {
+    border-radius: 4px;
+    width: 50%;
+    padding-left: 30px;
+    height: 26px;
+}
+
+input.option-btn {
+    background: #fff;
+    border: none;
+    color: #000;
+    border-radius: 5px;
+    width: 35%;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 2px
+}
+
+input.option-btn:hover{
+    background: rgb(207, 7, 7);
+    cursor: pointer;
+    color: #fff;
+    transition: 1s;
+}
+
+#view  {
+    background: red;
+    border: none;
+    color: #fff;
+    width: 45%;
+    height: 28px;
+    border-radius: 5px;
+}
